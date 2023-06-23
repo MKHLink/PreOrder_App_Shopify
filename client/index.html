@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test App</title>
+    <script defer src="#"></script>
+  </head>
+  <body>
+    <div id="modal-snippet">
+        <form id="pre-order-form" method="post" enctype="text/plain" >
+
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required>
+        
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required>
+
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required>
+
+          <!-- <label for="shipping-address">Shipping Address:</label>
+          <textarea id="shipping-address" name="shipping-address" required></textarea> -->
+
+          <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankYouModal">
+            Confirm Pre-Order
+          </button>
+        </form>
+      </div>
+  </body>
+</html>
